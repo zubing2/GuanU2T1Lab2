@@ -36,12 +36,20 @@ public class ChatBot {
     }
 
     // method that adds and returns the sum of three numbers
-    public int addNumbers(int num1, int num2, int num3) {
-        return num1 + num2 + num3;
-    }
+    public int addNumbers(int num1, int num2, int num3) {return num1 + num2 + num3;}
 
     // method that RETURNS a goodbye message as a String -- note there is no printing here!
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
-}
+
+
+    //method that returns a message when asked about the time.
+    public void time() {
+        System.out.println("I don't know what time it is. ");
+        System.out.println("I'm not kidding, I actually don't know the time.");
+    }
+    public String talk() { return "How are you enjoying your chat with me so far?"; }
+    }
+
+
